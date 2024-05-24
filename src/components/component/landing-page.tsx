@@ -143,7 +143,7 @@ export function LandingPage() {
             <div className="space-y-3">
               <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">Experience the Power of Mocket</h2>
               <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed light:text-gray-400">
-                Streamline your front-end development with Mocket's suite of powerful tools. Get started today and take
+                Streamline your front-end development with Mocket&apos;s suite of powerful tools. Get started today and take
                 your development workflow to the next level.
               </p>
             </div>
@@ -177,7 +177,7 @@ export function LandingPage() {
   )
 }
 
-function MailsIcon(props) {
+function MailsIcon(props:any) {
   return (
     <svg
       {...props}
